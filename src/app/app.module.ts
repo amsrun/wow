@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CopyPastaComponent } from './copy-pasta/copy-pasta.component';
 import { DiscVsHolyComponent } from './disc-vs-holy/disc-vs-holy.component';
+import { PowerWordShieldComponent } from './power-word-shield/power-word-shield.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CopyPastaComponent,
-    DiscVsHolyComponent
+    DiscVsHolyComponent,
+    PowerWordShieldComponent
   ],
   imports: [
     BrowserModule,

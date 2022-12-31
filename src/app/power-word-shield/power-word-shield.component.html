@@ -1,0 +1,17 @@
+<h2 class="ui header">Power Word: Shield</h2>
+<table class="ui celled collapsing center aligned table">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Full Absorb</th>
+            <th>Glyph Heal</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of base">
+            <td>{{ s.rank }}</td>
+            <td>{{ absorbAmount(s) }}</td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>

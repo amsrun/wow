@@ -1,16 +1,21 @@
 <pre>
     <div class="ui segment">
-        Power Word: Shield```
-        absorb = (BASE + (0.8068 + BT) * SP) * (1 + IPWS) * (1 + FP + TD + SH)
-        glyph heal = (BASE + (0.8068 + BT) * SP) * (1 + FP) * (1 + IPWS + TD) * (1 + BR) * 0.2
+**Power Word: Shield**```
+    absorb = (BASE + (0.8068 + BT) * SP * DRP) * (1 + IPWS) * (1 + FP + TD + SH)
+glyph heal = (BASE + (0.8068 + BT) * SP * DRP) * (1 + FP) * (1 + IPWS + TD) * (1 + BR) * 0.2
 
-        Terms (+% at max rank):
-SH = Spiritual Healing (10%)
-TD = Twin Discipline (5%)
-FP = Focused Power (4%)
-IPWS = Improved PW:S (15%)
-BT = Borrowed Time (40%)
-BASE = 2230 (for rank 14)```
+       |      Talent        |  Max  |
+|------|--------------------|-------|
+|   SH | Spiritual Healing  |  10%  |
+|   TD | Twin Discipline    |   5%  |
+|   FP | Focused Power      |   4%  |
+| IPWS | Improved PW:S      |  15%  |
+|   BT | Borrowed Time      |  40%  |
+|   BR | Blessed Resilience |   3%  |
+|  DRP | Downrank Penalty   |   *   |
+|   SP | Spell Power        |   *   |
+
+BASE absorb amount for Power Word: Shield common ranks are 2230 (R14), 1951 (R13), 1286 (R12), 1144 (R11), and 964 (R10)```
 
 Haste```
 hasted cast time = cast time / haste%
