@@ -17,15 +17,30 @@ glyph heal = (BASE + (0.8068 + BT) * SP * DRP) * (1 + FP) * (1 + IPWS + TD) * (1
 
 BASE absorb amount for Power Word: Shield common ranks are 2230 (R14), 1951 (R13), 1286 (R12), 1144 (R11), and 964 (R10)```
 
-Haste```
-hasted cast time = cast time / haste%
+**Haste**```
+            1% haste = 32.79 haste rating
+    hasted cast time = cast time / haste
 
-Each separate source of haste (buff, gear, talent) is applied multiplicatively. At level 80, every 32.79 haste rating = 1% haste. Typical raid buffs are Wrath of Air Totem (5%), Swift Retribution or Improved Moonkin Form (3%). Talent buffs are Enlightenment (6%), and Borrowed Time (25%; temporary). 
+Each separate source of haste effect (buff, gear, talent) is applied multiplicatively. Haste rating stacks additively with itself before converting to haste effect. Take an oMDS-spec Priest (6% from Enlightenment), Wrath of Air Totem (5%), Swift Retribution or Improved Moonkin Form (3%), and 450 haste rating from gear, the new haste (with base haste at 100%, or 1.0) is calculated as:
 
-With a standard deep Discipline build that include both talent buffs active, with raid buffs:
+    haste = 1.0 * 1.06 * 1.05 * 1.03 * (1 + 450 / 32.79 / 100) = 1.3037 or 130.37%
 
-haste% = 1.06 * 1.25 * 1.05 * 1.03 = 1.4330```
+GCD is reduced to (1.5 / 1.3037) = 1.15s from 1.5s. Greater Heal (talented) cast time is reduced to (2.5 / 1.3037) = 1.92s, Prayer of Healing cast time is reduced to 2.3s without any Serendipity stack.
+```
+#healing-faq has a wealth of information, make sure you check it out, especially this gem by @kanga:
 
-(for more information see https://discord.com/channels/253201874683953162/1024065891954065469/1024066761710112818)
+
     </div>
+</pre>
+<div class="ui divider"></div>
+<h2 class="ui header">Ulduar</h2>
+<pre>
+   
+<!-- 
+## Iron Council
+
+{tank}: 
+- dispel {spell 63493} -->
+
+
 </pre>

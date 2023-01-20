@@ -1,0 +1,25 @@
+|cpink= Iron Council =
+
+- need nature resist aura/totem
+- everyone |cyellow(except the 2 soakers)|r will be in |cyellowmelee|r range during the whole encounter, including casters and healers
+- |cred*IMPORTANT*|r back of MT is the movement direction 
+- {icon 53915} first {spell 63490} |cyellowuse on pull|r, {icon 54861} second {spell 63490}  |cff6c6c6cpersonal defensive cooldowns ({icon 65961}{spell 65961}, {spell 47585}, etc.) are always helpful
+
+{tank}
+- dispel {spell 63493}
+- move boss barely out of {spell 61974} (5y radius); it is always casted on a boss; shows as a |cyellowdebuff (may need a WA)
+- move out of {spell 63490} (13y radius)
+
+{dps}
+- focus on single target rotation
+- |cred*IMPORTANT*|r {mage} must steal {spell 63489}, macro cancelcast with {spell 30449}
+- can use 2-min abilities; Molgeim dies at over 2 min
+- |cyellowHARD STOP DPS|r on Molgeim at 7%; setup debuffs on Steelbreaker
+- lust after last {spell 61974}
+
+{healer}
+- {icon 48161} and {icon 48378} will stay outside of melee range, 6y apart
+- {icon 48378} move in and out of max range from Steelbreaker
+- ret {paladin}{spell 64205} {spell 63481}
+- {spell 64205} + {spell 642} first and second {spell 63490}
+- {icon 48782} on melee; {icon 48161} and {icon 48378} on ranged
