@@ -1,0 +1,2 @@
+
+HealCommSettings = nil

@@ -1,0 +1,10 @@
+- upper left: prominent buffs - Renew/Rejuvenation
+- upper left 2: additional prominent class buff - PWS/WS in this case for Priest
+- center left: short, transitional buff - POM/Living Seed
+- center: raid debuffs - grows downward - gotta see when Gluth stack gets high or when people gets ice tombed; can add custom spells 
+-  center right: big buff - Divine Sacrifice, PS/GS, Icebound Fortitude, etc.
+- upper right: dispelable and misc. debuffs.
+- border: color to cleansable debuff. I don't show types my class can't help - I like to trust my teammates and they belong to "too much information" category. Anything important for everyone to know will go tot "raid debuff" bucket
+- bottom left: misc buffs - fear ward, amplify magic, inspiration/af, etc. - things that I find relevant as a healer but not specific to my class. "Other" Druid hots go there too.
+- aggro is indicated by name color change so I don't have to allocate another spot for it
+- bottom right: HP deficit - this is quite important to me so I can use the appropriate spell e.g. no need to consider PoH if everyone is <2.5k deficit and CoH is off CD; PoH if 2+ is >3k deficit and there is time to hard cast.

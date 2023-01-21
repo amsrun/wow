@@ -1,0 +1,304 @@
+VER 3 00000000000000A0 "_:TAG" "INV_MISC_QUESTIONMARK"
+/tar Living Lasher
+/cast Shadow Word: Death
+END
+VER 3 00000000000000B4 "_N:Razuvious" "136223"
+#showtooltip
+/target [pet] Instructor Razuvious
+/cast Taunt
+/cast Bone Barrier
+/cast Blood Strike
+/petattack
+END
+VER 3 00000000000000BA "D:Bash" "INV_MISC_QUESTIONMARK"
+#showtooltip Bash
+/startattack
+/cast [noform:1]!Dire Bear Form
+/use [form:1]Bash
+END
+VER 3 000000000000008E "D:C:Tilde" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists][@target,help][@targettarget,help] Remove Curse
+END
+VER 3 0000000000000092 "D:Cyclone" "INV_MISC_QUESTIONMARK"
+#showtooltip Cyclone
+/cast [@target,harm][@targettarget,harm][@mouseover,harm] Cyclone
+END
+VER 3 0000000000000089 "D:EntRt" "INV_MISC_QUESTIONMARK"
+#showtooltip Entangling Roots
+/cast [@target,harm][@targettarget,harm] Entangling Roots
+END
+VER 3 00000000000000B7 "D:FeralCharge" "INV_MISC_QUESTIONMARK"
+#showtooltip [form:1] Feral Charge - Bear; [form:3] Feral Charge - Cat
+/cast [form:1] Feral Charge - Bear
+/cast [form:3] Feral Charge - Cat
+/startattack [nostealth]
+END
+VER 3 00000000000000C2 "D:FoN" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Force of Nature
+END
+VER 3 00000000000000BF "D:Hurricane" "INV_MISC_QUESTIONMARK"
+#showtooltip Hurricane
+/cast Barkskin
+/cast [@cursor] Hurricane
+END
+VER 3 0000000000000094 "D:IS" "INV_MISC_QUESTIONMARK"
+#showtooltip Insect Swarm
+/cast [@target,nodead,harm][@targettarget,nodead,harm] Insect Swarm
+END
+VER 3 0000000000000087 "D:Moonfire" "INV_MISC_QUESTIONMARK"
+#showtooltip Moonfire
+/cast [@target,harm][@targettarget,harm] Moonfire
+END
+VER 3 00000000000000BE "D:Nourish" "INV_MISC_QUESTIONMARK"
+#showtooltip Nourish
+/cast [@player,mod:shift][@mouseover,help,exists][help,nodead][@targettarget,help,nodead] Nourish
+END
+VER 3 000000000000008C "D:SelfBuff" "INV_MISC_QUESTIONMARK"
+#showtooltip Omen of Clarity
+/castsequence reset=7 !Omen of Clarity, Mark of the Wild, Thorns
+END
+VER 3 000000000000008D "D:SitEnrage" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/sit
+/cast Maul
+/cast Swipe
+/startattack
+END
+VER 3 0000000000000093 "D:Smd" "INV_MISC_QUESTIONMARK"
+#showtooltip Swiftmend
+/cast [@player,mod:shift][@mouseover,help,nodead][help,nodead][@targettarget,help,nodead] Swiftmend
+END
+VER 3 00000000000000C0 "D:Starfall" "INV_MISC_QUESTIONMARK"
+/cast Starfall
+END
+VER 3 00000000000000BC "D:Survival" "INV_MISC_QUESTIONMARK"
+/cast Survival Instincts
+/cast Lifeblood
+END
+VER 3 00000000000000C1 "D:Typhoon" "INV_MISC_QUESTIONMARK"
+/cast Typhoon
+END
+VER 3 000000000000009A "Drink" "INV_Misc_QuestionMark"
+#showtooltip
+/use item:33445
+END
+VER 3 00000000000000B5 "G:BOMB" "INV_MISC_QUESTIONMARK"
+/use [@cursor] Saronite Bomb
+END
+VER 3 0000000000000011 "G:CANC" "132311"
+/stopcasting
+/cancelform [noform:5]
+/dismount
+END
+VER 3 000000000000009D "G:CC" "132310"
+/p === Kill/CC List ===
+/p {skull} Kill first
+/p {cross} Kill second
+/p {square} Freeze Trap
+/p {moon} Sheep
+/p {triangle} Hibernate
+/p {diamond} Fear
+/p {circle} Sap
+/p {star} Shackle/MC
+/p ================
+END
+VER 3 0000000000000010 "G:Inspect" "INV_MISC_QUESTIONMARK"
+/inspect
+END
+VER 3 0000000000000052 "G:Mount" "236232"
+/userandom [flyable] Plagued Proto-Drake
+/userandom Swift White Hawkstrider,Venomhide Ravasaur
+/cast Reawakened Phase-Hunter
+END
+VER 3 00000000000000B6 "G:NitroBoost" "135788"
+#showtooltip Nitro Boosts
+/castsequence reset=10 8,15
+END
+VER 3 000000000000008A "G:Shoot" "INV_MISC_QUESTIONMARK"
+#showtooltip Shoot
+/castsequence [@target,harm,nodead][@targettarget,harm,nodead] reset=1 !Shoot, null
+END
+VER 3 000000000000000F "G:Target" "INV_MISC_QUESTIONMARK"
+/tar chicken esca
+/tar wild turkey
+/tar lonely t
+/tar king
+/tar ebon g
+/tar spore
+END
+VER 3 000000000000000E "G:Tkt:Dwn" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 000000000000000D "G:Tkt:Up" "INV_MISC_QUESTIONMARK"
+/use 13
+END
+VER 3 00000000000000A2 "HealthPot" "INV_Misc_QuestionMark"
+#showtooltip
+END
+VER 3 0000000000000098 "ManaPot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+END
+VER 3 00000000000000BD "P:Buff/SF" "INV_MISC_QUESTIONMARK"
+/castsequence [@player,nomod] reset=10 Inner Fire, Vampiric Embrace, Power Word: Fortitude, Divine Spirit, Shadow Protection
+/cast [mod] Shadowfiend
+/petattack [mod]
+END
+VER 3 00000000000000C3 "P:Disease" "135935"
+#showtooltips
+/cast [@mouseover,exists][@target,exists][@player] Cure Disease
+END
+VER 3 00000000000000C4 "P:Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/stopcasting
+/cast [@mouseover,exists][@target,nodead,exists][@player] Dispel Magic
+END
+VER 3 00000000000000B1 "P:DivineHymn" "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Hymn
+/use [combat] 10
+/cast [combat] Inner Focus
+/cast Divine Hymn
+END
+VER 3 00000000000000C7 "P:DP" "252997"
+#showtooltip Devouring Plague
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Devouring Plague
+END
+VER 3 00000000000000C8 "P:FH" "135907"
+#showtooltip Flash Heal
+/cast [@player,mod:shift][@mouseover,help,nodead][help,nodead][@targettarget,help,nodead] Flash Heal
+END
+VER 3 00000000000000C6 "P:GH" "135913"
+#showtooltip Greater Heal
+/cast [@player,mod:shift][@mouseover,help][help,nodead][@targettarget,help,nodead] Greater Heal
+END
+VER 3 00000000000000CB "P:HolyFire" "135972"
+#showtooltip Holy Fire
+/use 13
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Holy Fire
+END
+VER 3 00000000000000B2 "P:Illusion" "INV_MISC_QUESTIONMARK"
+/use Darkmoon Card: Illusion
+/cancelaura Illusionary Barrier
+END
+VER 3 0000000000000085 "P:InnerFocus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Inner Focus
+END
+VER 3 00000000000000AB "P:Levitate" "INV_MISC_QUESTIONMARK"
+/cast [@mouseover,party][@mouseover,raid][@target,party][@target,raid][@player] Levitate
+END
+VER 3 00000000000000B8 "P:LightWell" "INV_MISC_QUESTIONMARK"
+/cast Lightwell
+END
+VER 3 00000000000000AE "P:ManaBurn" "INV_MISC_QUESTIONMARK"
+#showtooltip Mana Burn
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Mana Burn
+END
+VER 3 00000000000000C5 "P:MassDispel" "135739"
+#showtooltips
+/cast [@cursor] !Mass Dispel
+END
+VER 3 00000000000000CD "P:MF" "136208"
+#showtooltip Mind Flay
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Mind Flay
+END
+VER 3 00000000000000CA "P:MindBlast" "136224"
+#showtooltip Mind Blast
+/cast [@target,harm,nodead][@targettarget,harm] Mind Blast
+END
+VER 3 00000000000000B9 "P:MindControl" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Control
+/cast [@target,harm,nodead][@focus,harm,nodead] Mind Control
+END
+VER 3 00000000000000CC "P:MS" "237565"
+#showtooltip Mind Sear
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Mind Sear
+END
+VER 3 00000000000000B0 "P:PH" "INV_MISC_QUESTIONMARK"
+#showtooltip Psychic Horror
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Psychic Horror
+END
+VER 3 0000000000000084 "P:PI" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target,help,nodead][@player] Power Infusion
+END
+VER 3 00000000000000CE "P:PoH" "135943"
+#showtooltip Prayer of Healing
+/cast Inner Focus
+/cast [@mouseover,help,nodead][@target,help,nodead][@targettarget,help,nodead][@player] Prayer of Healing
+END
+VER 3 00000000000000C9 "P:PoM" "135944"
+#showtooltip Prayer of Mending
+/cast [@player,mod:shift][@mouseover,help,nodead][help,nodead][@targettarget,help,nodead] Prayer of Mending
+END
+VER 3 00000000000000CF "P:PWS" "135940"
+#showtooltip Power Word: Shield
+/cast [@player,mod:shift][@mouseover,help,nodead][help,nodead][@targettarget,help,nodead] Power Word: Shield
+END
+VER 3 00000000000000D0 "P:Renew" "135953"
+#showtooltip Renew
+/use [combat] 13
+/cast [@player,mod:shift][@mouseover,help,nodead][help,nodead][@targettarget,help,nodead] Renew
+/use Path of Illidan
+END
+VER 3 00000000000000AD "P:Save" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Dispersion
+/cast Desperate Prayer
+END
+VER 3 00000000000000AC "P:Shackle" "INV_MISC_QUESTIONMARK"
+#showtooltip Shackle Undead
+/cast [@target,harm,nodead][@focus,harm,nodead][@targettarget,harm,nodead] Shackle Undead
+END
+VER 3 00000000000000BB "P:Shadowform" "INV_MISC_QUESTIONMARK"
+/cast !Shadowform
+END
+VER 3 00000000000000D1 "P:Smite" "135924"
+#showtooltip Smite
+/use 13
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Smite
+END
+VER 3 00000000000000D2 "P:SWD" "136149"
+#showtooltip Shadow Word: Death
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Shadow Word: Death
+END
+VER 3 00000000000000D3 "P:SWP" "136207"
+#showtooltip Shadow Word: Pain
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Shadow Word: Pain
+END
+VER 3 00000000000000D4 "P:VT" "135978"
+#showtooltip Vampiric Touch
+/use 10
+/use 13
+/cast [@target,harm,nodead][@targettarget,harm,nodead] Vampiric Touch
+END
+VER 3 0000000000000076 "Z:CheckSpeed" "INV_MISC_QUESTIONMARK"
+/run print((GetUnitSpeed("target")/0.07).."%")
+END
+VER 3 00000000000000A4 "Z:HideDetails" "INV_MISC_QUESTIONMARK"
+/details toggle
+END
+VER 3 000000000000006C "Z:InsertItem" "INV_MISC_QUESTIONMARK"
+/script MacroFrameText:Insert("")
+END
+VER 3 000000000000001C "Z:MaxCam" "132172"
+/console cameraDistanceMaxZoomFactor 5
+END
+VER 3 00000000000000A6 "Z:ScriptErrorOff" "INV_MISC_QUESTIONMARK"
+/console scriptErrors 0
+END
+VER 3 00000000000000AF "Z:ScriptErrorOn" "INV_MISC_QUESTIONMARK"
+/console scriptErrors 1
+END
+VER 3 000000000000005D "Z:Ultra+Setting" "132142"
+/console groundEffectDensity 256
+/console groundEffectDist 600
+/console detailDoodadAlpha 100
+/console horizonfarclip 2112
+/console farclip 1250
+/console characterAmbient 1
+/console skyCloudLod 3
+/console waterDetail 2
+/console sunshafts 1
+END
